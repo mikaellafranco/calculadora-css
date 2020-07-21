@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULADORA</title>
+</head>
+<style>
+body {
+background-image: url("https://cdn.dicionariopopular.com/imagens/nazareconfusamatematica.gif")
+}
+</style>
+
+  <span><font face= "verdana" color="pink" size="10"><center>Calculadora Power Ranger</center></span>
+  <br>
+  <form>
+    <center><table bgcolor="#FFE4E1" border=1>
+      <tr>
+        <td colspan="4">
+          <input type="number" name="numero" id="primeiroNumero">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <input type="number" name="numero" id="segundoNumero">
+        </td>
+      </tr>
+      <tr>
+        <td><input type="button" value="+" onclick="somar()"></td>
+        <td><input type="button" value="-" onclick="subtrair()"></td>
+        <td><input type="button" value="*" onclick="multiplicar()"></td>
+        <td><input type="button" value="/" onclick="dividir()"></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <input type="number" name="numero" id="resultado" readonly>
+          <!-- <div id="resultado"> -->
+        </td>
+      </tr>
+      </center>
+    </table>
+  </form>
+
+</body>
+</html>
